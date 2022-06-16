@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.example.grpc;
+
+option java_multiple_files = true;
+
+// 接口类
+service TestService {
+  rpc queryTest (TestRequest) returns (TestResponse);
+}
+
+message TestRequest {
+  string name = 1;
+
+}
+message TestResponse {
+  string name = 1;
+  int32 age = 2;
+  string address = 3;
+  string sex = 4;
+}
