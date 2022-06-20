@@ -34,4 +34,4 @@ build/
 
 mvnw
 mvnw.cmd
-.mvn
+/spring-boot-bulking-grpc-proto/src/main/java/com/example/grpc/
